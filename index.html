@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/java.js"></script>
+    <title>
+        Banderas Del Mundo
+    </title>
+</head>
+<body>
+    <header>
+        <h1 class="Titulo">ADIVINA LA BANDERA</h1>
+    </header>
+    
+<main>
+    <div id="itemContainer">
+        <p class="Item">¿A qué país pertenece está bandera?</p>
+        <button class="btn" onclick="comenzarAJugar()">Comenzar A Jugar</button>
+
+    </div>
+
+        <div class="pantallaJuego" id="pantallaJuego">
+            <img src="./img/argentina.svg" alt="" id="banderImg">
+            <div class="opciones">
+                <div class="opcion0" id="opcion0" onclick="comprobarRespuesta(0)">
+                    <div class="letra letraAcertada" id="letra0">A:</div>
+                    <div class="nombre nombreAcertado" id="nombre0">OPCIÓN A</div>
+                </div>
+                <div class="opcion1" id="opcion1" onclick="comprobarRespuesta(1)">
+                    <div class="letra letraAcertada" id="letra1">B:</div>
+                    <div class="nombre nombreAcertado" id="nombre1">OPCIÓN B</div>
+                </div>
+                <div class="opcion2" id="opcion2" onclick="comprobarRespuesta(2)">
+                    <div class="letra letraAcertada" id="letra2">C:</div>
+                    <div class="nombre nombreAcertado" id="nombre2">OPCIÓN C</div>
+                </div>
+               
+            </div>
+        </div>
+    </main>
+    <div id="pantallaFinal">
+        <h2 class="correcta">CORRECTAS: <span id="correcta">3</span></h2>
+        <h2 class="correcta">INCORRECTAS: <span id="incorrecta">2</span></h2>
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="redesSociales">
+                <div class="Instagram">
+                    <img src="../img/instagram.png" alt="" class="instagram">
+                    <p>@adriana2018</p>
+                </div>
+                <div class="Instagram">
+                    <img src="../img/linkedin.png" alt="" class="linkedin">
+                </div>
+                <div class="Instagram">
+                    <img src="../img/telegrama.png" alt="" class="telegram">
+                </div>
+            </div>
+        </div>
+        <h2 class="footerText">Desarrollado por: Adriana Solórzano</h2>
+    </footer>
+</body>
+</html>

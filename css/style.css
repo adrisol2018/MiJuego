@@ -1,0 +1,273 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+ 
+
+body{
+    background: url(../img/fondo9.jpg!d);
+    background-size: cover;
+    backdrop-filter: fixed;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    width: 100%;
+}
+.Titulo{
+    width: fit-content;
+    font-family: 'Rubik Vinyl', cursive;
+    color:#fb8500;
+    margin: 40px auto;
+    background-color: #1d3557;
+    border-radius: 15%;
+    box-shadow: 5px 5px 0 #e63946;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+#itemContainer{
+display: block;
+}
+
+.Item{
+    width: fit-content;
+    font-family: 'Rubik Vinyl', cursive;
+    color:#fb8500;
+    margin: 40px auto;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn{
+    width: fit-content;
+    font-family: 'Rubik Vinyl', cursive;
+    color:#fb8500;
+    margin: 0 40% 2% 45%;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: #1d3557;
+    border-radius: 15%;
+    box-shadow: 5px 5px 0 #e63946;
+    cursor: pointer;
+
+    
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#pantallaJuego{
+    display: none;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center
+}
+
+
+.pantallaJuego img{
+    display: none;
+    max-width: 400px;
+    width: 100%;
+}
+
+.opciones{
+    max-width: 400px;
+    margin: auto;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+div .opcion0{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin: 1% 25% 0 25%;
+}
+
+div .opcion1{
+display: grid;
+grid-template-columns: 1fr 1fr;
+position: relative;
+margin: 1% 25% 0 25%;
+}
+
+div .opcion2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin: 1% 25% 0 25%;
+    }
+
+.letra{
+    text-align: center;
+    width: fit-content;
+    font-family: 'Rubik Vinyl', cursive;
+    color:black;
+ 
+}
+
+div .letra{
+    background-color: #7209b7;
+    border-radius: 45%;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 30%;
+    height: 70%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    margin: 5% ;
+    border: 2px solid #1d3557;
+    position: relative;
+
+}
+
+.nombre{
+     background-color: #8ecae6;
+    border-radius: 20%;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 30%;
+    height: 70%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    z-index: -2;
+    margin: 3% ;
+    border: 2px solid #1d3557;
+    position: relative;
+
+}
+
+.nombre{
+    margin: 2% 0 0 0;
+    width: fit-content;
+    font-family: 'Rubik Vinyl', cursive;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+}
+
+.opcion .nombreAcertado{
+    background-color: #80b918;
+    color: black;
+}
+
+.opcion .letraAcertada{
+    background-color: #80b918;
+    color: black;}
+
+    .opcion .nombreEquivocado{
+        background-color: red;
+        color: black;
+    }
+    
+    .opcion .letraEquivocada{
+        background-color: red;
+        color: black;}
+
+
+#pantallaFinal{
+    display: none;
+    text-align: center;
+} 
+
+
+
+#pantallaFinal #correcta{
+    background-color: #80b918;
+    display: inline-block;
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+#pantallaFinal #incorrecta{
+    background-color: red;
+    display: inline-block;
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+#pantallaFinal h2{
+    width: fit-content;
+    font-family: 'Rubik Vinyl', cursive;
+    color:white;
+    margin: 10px auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+/*Footer*/
+
+
+.instagram{
+    width: 20%;
+    margin: 0 40% 0 40%;
+    
+}
+.linkedin{
+    width: 20%;
+    margin: 0 40% 0 40%;
+    
+    
+}
+.telegram{
+    width: 20%;
+    margin: 0 40% 0 40%;
+    
+    
+}
+
+.redesSociales{
+    margin: 5% 20% 2% 20%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+p{
+    font-family: 'Rubik Vinyl', cursive;
+    color: #fb8500;
+    margin: 5px 0 5px 0;
+    text-align: left;
+}
+
+.footerText{
+    width: fit-content;
+    font-family: 'Rubik Vinyl', cursive;
+    color:#fb8500;
+    font-size: 1rem;
+    margin: 40px auto;
+    background-color: #1d3557;
+    border-radius: 15%;
+    box-shadow: 5px 5px 0 #e63946;
+    padding: 10px 20px;
+    text-align: center;
+    align-items: stretch;
+}
+
+footer{
+position: absolute;
+ max-width: 100%;
+ margin: 10% 0 0 0;
+
+}
+
+
